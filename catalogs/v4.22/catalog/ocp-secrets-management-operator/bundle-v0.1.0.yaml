@@ -1,5 +1,5 @@
 ---
-image: registry.stage.redhat.io/external-secrets-management/console-plugin-operator-bundle@sha256:e9f9ec6869f2234d94e4f12282babeda7dafbf8d82cd92757cbb08b7c63fca1f
+image: registry.stage.redhat.io/external-secrets-management/console-plugin-operator-bundle@sha256:2725501adf562f4fbf91f59f295cf49d97fc40aeef7427ef74a943a96a56b3f4
 name: ocp-secrets-management-operator.v0.1.0
 package: ocp-secrets-management-operator
 properties:
@@ -86,7 +86,7 @@ properties:
 
       ### Prerequisites
 
-      * OpenShift 4.18 or later
+      * OpenShift 4.22 or later
       * One or more of the supported operators installed (optional)
 
       ### Getting Started
@@ -138,12 +138,12 @@ properties:
     - email: support@redhat.com
       name: Red Hat
     maturity: alpha
-    minKubeVersion: 1.27.0
+    minKubeVersion: 1.35.0
     provider:
       name: Red Hat
       url: https://www.redhat.com
 relatedImages:
-- image: registry.stage.redhat.io/external-secrets-management/console-plugin-operator-bundle@sha256:e9f9ec6869f2234d94e4f12282babeda7dafbf8d82cd92757cbb08b7c63fca1f
+- image: registry.stage.redhat.io/external-secrets-management/console-plugin-operator-bundle@sha256:2725501adf562f4fbf91f59f295cf49d97fc40aeef7427ef74a943a96a56b3f4
   name: ""
 - image: registry.stage.redhat.io/external-secrets-management/console-plugin-operator-rhel9@sha256:b1cf5c4e26bd1db0fae189903a8b4f8583f962e08590f5a6bfcb29f6bf5288b7
   name: ocp-secrets-management-operator
